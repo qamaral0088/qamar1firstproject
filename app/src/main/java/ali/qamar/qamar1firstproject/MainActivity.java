@@ -26,7 +26,7 @@ private EditText et_input;
 
         public void onClickGo (View  v) {
             String st = et_input.getText().toString();
-            tv_outout.setTex(st);
+            tv_outout.setText(st);
         }
     
 
