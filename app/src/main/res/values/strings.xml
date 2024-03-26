@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">qamar1firstproject</string>
+    <string name="time">SELECT*FROM MyTask WHERE userld=:userld_p ORDER BY  time DESC</string>
 </resources>

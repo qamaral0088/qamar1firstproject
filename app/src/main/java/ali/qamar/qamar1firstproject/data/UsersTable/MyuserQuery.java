@@ -15,7 +15,7 @@ public interface MyuserQuery
     void delete(int id);
     void update(MyUser values);
 
-
+@Dao
 
     @Query("SELECT * FROM MyUser")
     List<MyUser> getAll();
