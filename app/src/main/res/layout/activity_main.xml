@@ -8,35 +8,14 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tvOutput"
-        android:layout_width="433dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:text="hello qamar"
-        android:textSize="34sp" />
-
-    <Button
-        android:id="@+id/btnGo"
-        android:layout_width="match_parent"
-        android:layout_height="81dp"
-        android:backgroundTint="#8F8484"
-        android:onClick="onClickGo"
-        android:text="Press to go"
-        android:textSize="48sp" />
-
-    <EditText
-        android:id="@+id/etlnput"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter your input"
-        android:inputType="textPersonName"
-        android:textSize="24sp" />
+        android:text="wellcome to app" />
 
-    <Button
-        android:id="@+id/btnNext"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Next Screen" />
-
+        tools:srcCompat="@tools:sample/avatars" />
 </LinearLayout>
