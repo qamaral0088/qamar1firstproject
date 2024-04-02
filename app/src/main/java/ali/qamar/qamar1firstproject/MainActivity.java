@@ -16,7 +16,7 @@ private EditText et_input;
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.splashscreen);
         tv_outout=findViewById(R.id.tvOutput);
         et_input=findViewById(R.id.etlnput);
         btn_Go =findViewById(R.id. btnGo);
